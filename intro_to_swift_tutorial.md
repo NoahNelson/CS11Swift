@@ -443,7 +443,7 @@ Notice that the initializer for the EquilateralTriangle class has three differen
 
 ## Further references
 
-Swift Language Overview (see Functions and Optional Chaining):
- https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309
+[Swift Language Overview](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309) (see Functions and Optional Chaining)
+ 
 
 **Copyright (c) Connor Soohoo 2017.**
