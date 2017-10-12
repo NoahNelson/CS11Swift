@@ -46,6 +46,8 @@ other defaults (UILabel type, Weak Storage).
 This should cause a property of the ViewController class to be created, which
 is annotated with the special @IBOutlet annotation, which signals that it
 represents a connection to something on the user interface.
+More info on connecting UI elements to View Controllers can be found
+[here](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/ConnectTheUIToCode.html#//apple_ref/doc/uid/TP40015214-CH22-SW1).
 
 ![Outlet](screenshots/ibintro/x-04.png)
 

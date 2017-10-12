@@ -29,6 +29,9 @@ You can arrange these however you want, with the following rules:
 -Arrange them for use on an iPhone
 8 (The smaller one) - at a bare minimum, I should be able to see all of these
 UI elements, and really you should try to lay them out in some nice way.
+[Here](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/BuildABasicUI.html#//apple_ref/doc/uid/TP40015214-CH5-SW2) is some information on using Auto Layout constraints to make sure your apps
+look good on all device sizes. This is not a requirement for the lab but
+is an essential skill.
 -One text field should be clearly on the left side of the screen, and one
 should be on the right.
 -Two of the buttons correspond to the two text fields, and
