@@ -10,9 +10,6 @@ submit your work, it should be in a Swift file, Lab1.swift, which should compile
 using `swift Lab1.swift` (which should have no output - for now, Playgrounds
 will be the easiest way to test your code).
 
-A language introduction is available [here](intro_to_swift_tutorial.md).
-Another great resource is [The Swift Programming Language](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/index.html), Apple's own language reference.
-
 ---
 
 ### Part A - Numeric types
