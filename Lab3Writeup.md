@@ -119,7 +119,9 @@ Saving something to UserDefaults looks like this:
 
 `
 let defaults = UserDefaults.standard  
+
 defaults.set("Marcus", forKey: "name")  
+
 defaults.synchronize()  
 `
 
