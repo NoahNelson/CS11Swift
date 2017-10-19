@@ -117,19 +117,17 @@ Dictionary, compositions of these), and that's what we'll do.
 
 Saving something to UserDefaults looks like this:
 
-`
-let defaults = UserDefaults.standard  
-
-defaults.set("Marcus", forKey: "name")  
-
-defaults.synchronize()  
-`
+```swift
+let defaults = UserDefaults.standard
+defaults.set("Marcus", forKey: "name")
+defaults.synchronize()
+```
 
 And retrieving an object for a key is done like this:
 
-`
+```swift
 let name = defaults.string(forKey: "name")
-`
+```
 
 Where you use different methods on the defaults object depending on what type
 of object is stored for that key (see the [documentation](https://developer.apple.com/documentation/foundation/userdefaults) for details).
