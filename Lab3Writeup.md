@@ -118,9 +118,9 @@ Dictionary, compositions of these), and that's what we'll do.
 Saving something to UserDefaults looks like this:
 
 `
-let defaults = UserDefaults.standard
-defaults.set("Marcus", forKey: "name")
-defaults.synchronize()
+let defaults = UserDefaults.standard  
+defaults.set("Marcus", forKey: "name")  
+defaults.synchronize()  
 `
 
 And retrieving an object for a key is done like this:
@@ -137,12 +137,12 @@ keep track of an Array of GeoCache objects, and keep it saved in UserDefaults.
 For this we'll need two functions, a save and a load function, which work as
 follows:
 
--`loadCachesFromDefaults() -> [GeoCache]`: This will look up an array in
+- `loadCachesFromDefaults() -> [GeoCache]`: This will look up an array in
 UserDefaults, and attempt to convert each element in the array into a
 dictionary of type [String: String], feed those into the failable initializer
 for `GeoCache`, and return an array of those results.
 
--`saveCachesToDefaults(_ caches: [GeoCache])`: This will take an array of
+- `saveCachesToDefaults(_ caches: [GeoCache])`: This will take an array of
 GeoCaches (with no argument label) and save it to the standard UserDefaults,
 so that if you immediately loadCachesFromDefaults() you will get back the same
 array you just saved. You can use whatever key makes sense to you in the
