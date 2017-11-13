@@ -204,19 +204,19 @@ add a detail view - a third view controller!
 This will go a lot like hooking up the table and new cache view controllers -
 drag a new View Controller onto the storyboard, create a new class for it
 (DetailViewController). You should put a Text View on the detail view
-controller, and add an IBOutlet to the new class for it. You can also embed
-the detail view controller in its own navigation controller, so the bar
-will persist even when the user hits a geocache row and moves to the detail
-page.
+controller, and add an IBOutlet to the new class for it. Do not embed this
+new view controller in a navigation controller - you shouldn't need to to
+get a simple back button to the table view, and it interferes with the smooth
+segue we want.
 
 Now, hooking up the TableView and DetailView is fairly simple - we'll need to
 use code to peform a segue, so there needs to be a segue in the storyboard
 for the code to do. Control drag from the TableViewController icon on the table
-view screen (leftmost of three little icons in the top bar) to the Navigation
-Controller you embedded the DetailView in.
-You should be able to select `Present Modally` as before. Now, there should be
-a segue connecting these two. Give it an identifier, like `ToDetail`, so that
-your code can refer to it.
+view screen (leftmost of three little icons in the top bar) to the Detail View.
+You should select `Show` instead of `Present Modally` - this simpler segue
+allows interface builder to infer a small navigation bar with a back button
+at the top of the detail view, which should work for getting back to the
+Table View.
 
 There's just a couple more things to do: make it so that tapping a cell in the
 table view performs the segue you just added, and make the TableViewController
