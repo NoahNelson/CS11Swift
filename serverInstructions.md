@@ -5,7 +5,7 @@ To test out your app's network request features, you'll need a server to run
 them against - the easiest way to do this is by hosting it locally. This is
 not too hard - all you need are these two files:
 
-[cacheServer.py](cacheServer.py)
+[cacheServer.py](cacheServer.py)  
 [makeGeoCache.sql](makeGeoCache.sql)
 
 Put those in a directory to use for this server.
@@ -30,7 +30,7 @@ With this created, the server is ready to run - in your server folder where
 you put both files (the `cache.db` file should be there now too) just run
 
 `
-$ export FLASK_APP=cacheServer.py
+$ export FLASK_APP=cacheServer.py  
 $ python -m flask run
 `
 
