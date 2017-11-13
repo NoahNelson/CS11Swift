@@ -35,6 +35,7 @@ on the new row to add a new entry to this dictionary. for `Key`, type in
 done, you should have an entry that looks like the second screenshot below:
 
 ![plist](screenshots/lab5/x-01.png)
+
 ![plist-done](screenshots/lab5/x-02.png)
 
 ---
