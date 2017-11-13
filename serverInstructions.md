@@ -31,6 +31,7 @@ you put both files (the `cache.db` file should be there now too) just run
 
 `
 $ export FLASK_APP=cacheServer.py  
+
 $ python -m flask run
 `
 
