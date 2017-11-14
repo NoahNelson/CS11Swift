@@ -8,3 +8,4 @@ Labs:
  - [Lab 2](Lab2Writeup.md) (Due October 20th, 5PM)
  - [Lab 3](Lab3Writeup.md) (Due October 27th, 5PM)
  - [Lab 4](Lab4Writeup.md) (Due November 13th, 5PM)
+ - [Lab 5](Lab5Writeup.md) (Due November 20th, 5PM)
