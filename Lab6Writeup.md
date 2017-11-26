@@ -196,6 +196,6 @@ image from being updated in the TableViewController's array).
 
 ### Optional Challenge
 
-If you feel like making even more improvements, follow the instructions here:
-[custom table cell](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html#//apple_ref/doc/uid/TP40015214-CH8-SW2) to subclass UITableViewCell and add image thumbnails to
+If you feel like making even more improvements, follow the instructions
+[here](https://developer.apple.com/library/content/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html#//apple_ref/doc/uid/TP40015214-CH8-SW2) to subclass UITableViewCell and add image thumbnails to
 the table cells.
