@@ -28,7 +28,7 @@ a description of why you need permissions you request - when you ask the user
 if you can access the photo library, a string from your info.plist will be
 presented. You can edit info.plist as an XML file, or you can use Xcode's
 graphical editor. I find XML pretty hard to read, so I always just hit the
-+ button next to Information Property List, and it adds a new key. The key
+'+' button next to Information Property List, and it adds a new key. The key
 you're looking for is "Privacy - Photo Library Usage Description". Its type
 should be String, and you can write something in the value like
 "To send pictures of your treasures to the server".
@@ -118,12 +118,12 @@ Pop open that storyboard, and put another navigation button on the bar of the
 New Cache screen, in the System Item drop-down menu you can select
 `Camera` to get a nice camera icon.
 
-![Camera Icon](x-01.png)
+![Camera Icon](screenshots/lab6/x-01.png)
 
 You should also add a UIImageView to this screen, so that the user can see
 the photo they picked out before hitting save. Again, drag and drop.
 
-![Image View](x-02.png)
+![Image View](screenshots/lab6/x-02.png)
 
 Now, we can hook these up programmatically. You need to do a few things with
 NewCacheViewController.swift to get an image picker working, here they are:
